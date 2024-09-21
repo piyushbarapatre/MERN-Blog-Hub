@@ -55,7 +55,7 @@ MongoDB: Ensure you have MongoDB installed locally or use MongoDB Atlas for a cl
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/mern-blog-app.git
+git clone https://github.com/piyushbarapatre/mern-blog-app.git
 
 Navigate to the project directory:
 cd mern-blog-app
