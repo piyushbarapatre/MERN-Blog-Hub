@@ -5,17 +5,15 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.3)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.0)
     ),
-    url("https://img.freepik.com/free-photo/pink-nature-landscape-with-vegetation-flora_23-2150859533.jpg?t=st=1727162654~exp=1727166254~hmac=65ef4ac73eff616ec831fb5268a0667b0184a15e6aba6cb66033d915d377d1a5&w=1060");
+    url("https://img.freepik.com/free-photo/3d-hazy-desert-landscape-sunset_1048-18184.jpg?t=st=1727206898~exp=1727210498~hmac=cd2d8625972b63b7ad98250270bb96057cc8992543cbfdaa58ec3ab5983aa012&w=996");
   background-size: cover;
 }
 
 .loginTitle {
   font-size: 50px;
-  font-family: "Lora", system-ui;
-
 }
 
 .loginForm {
@@ -32,22 +30,21 @@
   padding: 10px;
   background-color: white;
   border: none;
-  border-radius: 10px;
-}
-
-.loginInput:focus {
-  outline: none;
 }
 
 .loginButton {
   margin-top: 20px;
   cursor: pointer;
   background-color: lightcoral;
-  color: white;
-  padding: 10px;
   border: none;
+  color: white;
   border-radius: 10px;
-  text-align: center;
+  padding: 10px;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
 }
 
 .loginRegisterButton {
@@ -56,8 +53,8 @@
   right: 20px;
   background-color: teal;
   cursor: pointer;
-  padding: 10px;
   border: none;
+  padding: 10px;
   color: white;
   border-radius: 10px;
 }
